@@ -108,8 +108,8 @@ const Home = () => {
           width: "20%",
         }}
       >
-        <Category onChangeProp={onCategoryChangeHandler} checkedCategoryArray={checkedCategoryState}/>
-        <Brand onChangeProp={onBrandChangeHandler} checkedBrandArray={checkedBrandState}/>
+        <Category onChangeProp={onCategoryChangeHandler} checkedCategoryArray={checkedCategoryState} categoryArray={category}/>
+        <Brand onChangeProp={onBrandChangeHandler} checkedBrandArray={checkedBrandState} brandArray={brand}/>
       </div>
       <div
         style={{
